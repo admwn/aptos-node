@@ -20,6 +20,10 @@ full_node_networks:
       listen_address: "/ip4/0.0.0.0/tcp/6180"
       # Define the upstream peers to connect to
       seeds:
+        8a42f7ccf4063f559fc5372d4b34d9aff4c5558227456a3c872a3933cf470761:
+            addresses:
+            - "/ip4/39.165.96.77/tcp/6180/ln-noise-ik/8a42f7ccf4063f559fc5372d4b34d9aff4c5558227456a3c872a3933cf470761/ln-handshake/0"
+            role: "Upstream"
         1741d4ef7b057349f8162b50b84b5959c872c927fba037a502aeca0da4b60d3e:
             addresses:
             - "/ip4/5.161.43.102/tcp/6180/ln-noise-ik/1741d4ef7b057349f8162b50b84b5959c872c927fba037a502aeca0da4b60d3e/ln-handshake/0"
